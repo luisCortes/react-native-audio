@@ -20,6 +20,8 @@ android {
             minifyEnabled false
         }
     }
+
+    namespace 'com.rnim.rnaudio'
 }
 
 def supportVersion = rootProject.hasProperty('supportLibVersion') ? rootProject.supportLibVersion : DEFAULT_SUPPORT_LIB_VERSION
